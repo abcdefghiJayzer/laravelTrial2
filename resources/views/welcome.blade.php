@@ -4,9 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="shortcut icon" href="/img/fav-icon.png" type="image/x-icon">
+
         <title>Meow</title>
         @vite('resources/css/app.css')
-       
+
 </head>
 
 <body class="bg-black">
@@ -20,7 +22,7 @@
         <h2 class="text-xl md:text-2xl">Welcome to my feed!</h2>
       </div>
     </section>
-    
+
   </header>
 
   <main class="">
@@ -134,11 +136,23 @@
 
       </div>
 
-      
+      <div class="text-white">
+        @php
+            echo $users [0]['name']
+        @endphp
+      </div>
+
+
 
 
 
   </main>
+
+  <footer>
+    <div></div>
+
+
+  </footer>
 </body>
 
 </html>
