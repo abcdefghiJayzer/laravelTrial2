@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Container\Container;
+
 return [
 
     /*
