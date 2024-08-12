@@ -9,6 +9,6 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 Route::get('/', [dashboardController::class,'index']);
 
-Route::get('/email', [emailController::class,'index']);
+Route::get('/terms', function{
 
 Route::get('/profile', [profileController::class,'index']);
